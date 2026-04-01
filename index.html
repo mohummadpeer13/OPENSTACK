@@ -93,7 +93,7 @@
             </h2>
             <div class="text-center mb-16 px-4">
               <p
-                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed"
+                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed text-justify"
               >
                 Avant l’arrivée d’OpenStack, gérer une infrastructure
                 informatique signifiait intervenir directement sur les serveurs
@@ -103,14 +103,14 @@
               </p>
 
               <p
-                class="mt-8 text-sky-400 font-bold italic text-xl max-w-3xl mx-auto"
+                class="mt-8 text-sky-400 font-bold italic text-xl max-w-3xl mx-auto text-justify"
               >
                 OpenStack, c’est la couche logicielle qui prend le contrôle de
                 tout ce matériel pour le transformer en un Cloud privé.
               </p>
 
               <p
-                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed mt-6"
+                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed mt-6 text-justify"
               >
                 Face à ces contraintes, des solutions comme OpenStack ont été
                 développées pour automatiser et simplifier la gestion des
@@ -121,7 +121,7 @@
               </p>
 
               <p
-                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed mt-6"
+                class="text-slate-400 text-lg max-w-3xl mx-auto leading-relaxed mt-6 text-justify"
               >
                 Grâce à lui, vos processeurs, votre RAM et vos disques durs
                 deviennent des
@@ -140,19 +140,18 @@
             <!-- TEXTE -->
             <div class="mx-auto lg:mx-0 max-w-2xl">
               <div
-                class="flex items-center justify-center lg:justify-start space-x-3 mb-4"
+                class="flex items-center justify-center lg:justify-start space-x-3 mb-6"
               >
-                <span
-                  class="flex items-center justify-center w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 font-bold text-sm"
-                  >01</span
-                >
-                <h3 class="text-2xl font-bold text-white">
-                  De la Virtualisation au Cloud
+                <h3 class="text-xl font-bold text-white">
+                  <span
+                    class="text-white font-semibold underline decoration-sky-500 underline-offset-4"
+                    >De la Virtualisation au Cloud</span
+                  >
                 </h3>
               </div>
 
               <div class="space-y-4 text-slate-300 leading-relaxed text-lg">
-                <p>
+                <p class="text-justify">
                   La
                   <span
                     class="text-white font-semibold underline decoration-sky-500 underline-offset-4"
@@ -163,7 +162,7 @@
                   main reste un cauchemar.
                 </p>
 
-                <p>
+                <p class="text-justify">
                   Le
                   <span
                     class="text-white font-semibold underline decoration-sky-500 underline-offset-4"
@@ -208,7 +207,9 @@
                   Le Cloud Operating System
                 </h4>
 
-                <p class="text-slate-400 text-sm italic leading-relaxed">
+                <p
+                  class="text-slate-400 text-sm italic leading-relaxed text-justify"
+                >
                   "Comme Windows gère votre PC, OpenStack gère des datacenters
                   entiers. RAM, CPU et Disques de milliers de serveurs
                   fusionnent pour devenir un seul ordinateur géant."
@@ -438,7 +439,7 @@
                 <h5 class="text-white font-bold mb-3 text-lg">
                   Pourquoi cette fusion historique ?
                 </h5>
-                <p class="text-slate-400 leading-relaxed italic">
+                <p class="text-slate-400 leading-relaxed italic text-justify">
                   En 2010, le monde du cloud était une prison dorée. Les
                   entreprises étaient captives de solutions propriétaires
                   coûteuses comme <span class="text-white">VMware</span> ou du
@@ -490,7 +491,7 @@
               >
             </h2>
 
-            <p class="text-lg text-slate-300 leading-relaxed">
+            <p class="text-lg text-slate-300 leading-relaxed text-justify">
               À ses débuts, OpenStack était un défi pour les nerfs des
               administrateurs : complexe, instable et difficile à dompter.
               Aujourd'hui, cette époque est révolue.
@@ -582,7 +583,9 @@
               COMPUTE_ENGINE
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Nova est le service principal d’OpenStack chargé de fournir des
               ressources de calcul (compute). On l’appelle souvent le cerveau du
               cloud, car il permet aux utilisateurs d’accéder en libre-service
@@ -600,7 +603,7 @@
                 Ce que permet Nova :
               </h4>
 
-              <ul class="text-slate-400 text-sm space-y-2">
+              <ul class="text-slate-400 text-sm space-y-2 text-justify">
                 <li class="flex items-start gap-2">
                   • Créer, démarrer, arrêter, redimensionner ou supprimer des
                   machines virtuelles en libre-service
@@ -612,9 +615,8 @@
                   • Gérer des serveurs physiques (bare metal) via Ironic
                 </li>
                 <li class="flex items-start gap-2">
-                  • Supporter de nombreux hyperviseurs :
-                  <strong>KVM</strong> (le plus courant), Xen, VMware, Hyper-V,
-                  etc.
+                  • Supporter de nombreux hyperviseurs : KVM, Xen, VMware,
+                  Hyper-V, etc.
                 </li>
               </ul>
             </div>
@@ -630,7 +632,9 @@
                 Comment Nova est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Nova est conçu pour être
                 <strong>très scalable et fiable</strong>. Il repose sur une
                 <span class="text-orange-400 font-medium"
@@ -641,7 +645,7 @@
               <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <!-- Partie gauche : Principe de base -->
                 <div>
-                  <p class="text-slate-400 text-sm mb-4">
+                  <p class="text-slate-400 text-sm mb-4 text-justify">
                     Tous les composants de Nova communiquent entre eux via une
                     <strong>file d’attente de messages</strong> (Message Queue).
                   </p>
@@ -762,7 +766,9 @@
                 Les principaux composants internes de Nova
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Nova n’est pas un seul gros bloc monolithique. Il est composé de
                 plusieurs services spécialisés qui travaillent ensemble de
                 manière coordonnée.
@@ -781,7 +787,9 @@
                     </div>
                     <h5 class="text-white font-semibold">Nova API</h5>
                   </div>
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     C’est le <strong>point d’entrée principal</strong> de Nova.
                     Il reçoit toutes les demandes via HTTP (création de VM,
                     arrêt, redimensionnement…) venant des utilisateurs, du
@@ -801,7 +809,9 @@
                     </div>
                     <h5 class="text-white font-semibold">Nova Scheduler</h5>
                   </div>
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     L’<strong>ordonnanceur</strong> intelligent de Nova. Il
                     analyse les ressources disponibles sur tous les serveurs
                     physiques et décide sur quel nœud il est le plus judicieux
@@ -822,7 +832,9 @@
                     </div>
                     <h5 class="text-white font-semibold">Nova Conductor</h5>
                   </div>
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Il joue le rôle d’<strong>intermédiaire sécurisé</strong>
                     entre les autres composants et la base de données. Il
                     empêche les serveurs de calcul d’accéder directement à la
@@ -842,7 +854,9 @@
                     </div>
                     <h5 class="text-white font-semibold">Nova Compute</h5>
                   </div>
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Installé sur <strong>chaque nœud de calcul</strong> (serveur
                     physique). C’est lui qui parle directement à l’hyperviseur
                     (KVM, Xen, VMware…) pour créer, démarrer, arrêter et gérer
@@ -865,7 +879,7 @@
                   <h5 class="text-white font-semibold">Base de données SQL</h5>
                 </div>
 
-                <p class="text-slate-400 text-sm leading-relaxed">
+                <p class="text-slate-400 text-sm leading-relaxed text-justify">
                   Stocke l’état complet du système : toutes les instances en
                   cours, les flavors, les métadonnées, l’historique, etc. Tous
                   les composants passent par Nova Conductor pour y accéder.
@@ -895,7 +909,9 @@
                 Avec qui Nova interagit-il ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Nova ne travaille jamais seul. Il communique en permanence avec
                 plusieurs services clés d’OpenStack pour fournir une expérience
                 complète et cohérente.
@@ -916,7 +932,9 @@
                     <h5 class="text-white font-semibold">Keystone</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Authentification & Gestion des accès</strong><br />
                     Avant toute action, Nova interroge Keystone pour vérifier
                     l’identité de l’utilisateur (token). Keystone détermine
@@ -940,7 +958,9 @@
                     <h5 class="text-white font-semibold">Glance</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Catalogue d’images système</strong><br />
                     Nova utilise Glance pour récupérer les images des systèmes
                     d’exploitation (Ubuntu, CentOS, Windows…). Lors du lancement
@@ -963,7 +983,9 @@
                     <h5 class="text-white font-semibold">Neutron</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Réseaux virtuels & connectivité</strong><br />
                     Nova s’appuie sur Neutron pour connecter les machines
                     virtuelles aux réseaux. Neutron crée les interfaces réseau
@@ -986,7 +1008,9 @@
                     <h5 class="text-white font-semibold">Cinder</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Stockage bloc persistant</strong><br />
                     Nova peut attacher des volumes fournis par Cinder aux
                     machines virtuelles. Ces disques persistants permettent de
@@ -999,7 +1023,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-amber-500/40 rounded-2xl p-6 transition-all md:col-span-2"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-black transition-colors"
@@ -1010,8 +1033,9 @@
                     <h5 class="text-white font-semibold">Placement</h5>
                   </div>
 
-                  <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Gestion intelligente des ressources</strong><br />
                     Placement fournit à Nova une vision précise des ressources
                     disponibles (CPU, RAM, disque, GPU) sur l’ensemble de
@@ -1057,14 +1081,16 @@
               NETWORKING_SERVICE
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Neutron est le service <strong>Réseau</strong> d’OpenStack. On
               l’appelle souvent
               <span class="text-blue-400 font-medium"
                 >« Networking as a Service »</span
               >.
             </p>
-            <p class="text-slate-400 text-sm leading-relaxed mb-8">
+            <p class="text-slate-400 text-sm leading-relaxed mb-8 text-justify">
               Son rôle est de fournir à tous les utilisateurs un réseau virtuel
               complet et flexible : réseaux, sous-réseaux, adresses IP,
               routeurs, firewalls, load balancers, etc., en libre-service, comme
@@ -1081,7 +1107,7 @@
                 <i class="fas fa-tasks"></i>
                 Ce que permet Neutron :
               </h4>
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Créer des réseaux privés (tenant networks) et des
                   sous-réseaux
@@ -1116,13 +1142,15 @@
                 Comment Neutron est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Neutron est un service <strong>standalone</strong> et hautement
                 scalable. Il déploie plusieurs processus sur différents nœuds
                 (controller, network nodes et compute nodes).
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Tous ces processus communiquent entre eux via une
                 <strong>file d’attente de messages</strong> (RabbitMQ) et avec
                 la base de données. Neutron est très modulaire grâce à son
@@ -1155,7 +1183,7 @@
                     </div>
                     <h5 class="text-white font-semibold">Neutron Server</h5>
                   </div>
-                  <p class="text-slate-400 text-sm">
+                  <p class="text-slate-400 text-sm text-justify">
                     Le cœur du service. C’est un démon Python qui expose l’API
                     REST. Il reçoit toutes les demandes réseau et communique
                     avec la base de données.
@@ -1176,7 +1204,7 @@
                       L2 Agent (ex: OVS Agent)
                     </h5>
                   </div>
-                  <p class="text-slate-400 text-sm">
+                  <p class="text-slate-400 text-sm text-justify">
                     Tourne sur chaque nœud de calcul. Il configure le
                     commutateur virtuel local (Open vSwitch, Linux Bridge…) pour
                     connecter les machines virtuelles au réseau.
@@ -1195,7 +1223,7 @@
                     </div>
                     <h5 class="text-white font-semibold">DHCP Agent</h5>
                   </div>
-                  <p class="text-slate-400 text-sm">
+                  <p class="text-slate-400 text-sm text-justify">
                     Fournit le service DHCP aux réseaux. Il attribue
                     automatiquement des adresses IP aux machines virtuelles.
                   </p>
@@ -1213,7 +1241,7 @@
                     </div>
                     <h5 class="text-white font-semibold">L3 Agent</h5>
                   </div>
-                  <p class="text-slate-400 text-sm">
+                  <p class="text-slate-400 text-sm text-justify">
                     Gère le routage (Layer 3) : routeurs virtuels, NAT, Floating
                     IPs et l’accès vers les réseaux externes.
                   </p>
@@ -1243,7 +1271,9 @@
                 Avec qui Neutron interagit-il ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Neutron est le service réseau d’OpenStack. Il ne crée pas de
                 machines, mais fournit toute l’<span
                   class="text-white font-semibold"
@@ -1258,7 +1288,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-orange-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors"
@@ -1269,8 +1298,9 @@
                     <h5 class="text-white font-semibold">Nova</h5>
                   </div>
 
-                  <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Neutron fournit à Nova les
                     <span class="text-white">interfaces réseau (ports)</span>
                     pour connecter les machines virtuelles (IP, DHCP, sécurité,
@@ -1282,7 +1312,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-purple-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors"
@@ -1293,8 +1322,9 @@
                     <h5 class="text-white font-semibold">Keystone</h5>
                   </div>
 
-                  <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Neutron s’appuie sur Keystone pour
                     <span class="text-white"
                       >authentifier les utilisateurs</span
@@ -1307,7 +1337,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-sky-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-sky-500/10 rounded-xl flex items-center justify-center text-sky-400 group-hover:bg-sky-500 group-hover:text-black transition-colors"
@@ -1318,8 +1347,9 @@
                     <h5 class="text-white font-semibold">Glance</h5>
                   </div>
 
-                  <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Indirectement via Nova : les
                     <span class="text-white">images de VM</span>
                     lancées utilisent automatiquement les réseaux configurés par
@@ -1331,7 +1361,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-green-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-green-500/10 rounded-xl flex items-center justify-center text-green-400 group-hover:bg-green-500 group-hover:text-black transition-colors"
@@ -1342,8 +1371,9 @@
                     <h5 class="text-white font-semibold">Cinder</h5>
                   </div>
 
-                  <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     Indirectement via Nova : les
                     <span class="text-white">volumes de stockage</span>
                     sont attachés à des machines virtuelles déjà connectées au
@@ -1386,7 +1416,9 @@
               IMAGE_SERVICE
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Glance est le
               <strong>service de gestion et de registre d’images</strong>
               d’OpenStack. C’est le
@@ -1404,7 +1436,7 @@
                 <i class="fas fa-tasks"></i>
                 Ce que permet Glance :
               </h4>
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Stocker et gérer les images de machines virtuelles
                 </li>
@@ -1437,7 +1469,9 @@
                 Comment Glance est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Glance est un service relativement léger et bien structuré. Il
                 sépare clairement la <strong>gestion des images</strong> de leur
                 <strong>stockage physique</strong>, ce qui le rend flexible et
@@ -1461,7 +1495,9 @@
                   </div>
 
                   <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     C’est le <strong>point d’entrée</strong> de Glance. Il
                     expose une API REST qui permet à Nova, Horizon et aux
                     utilisateurs de lister, uploader, télécharger, supprimer ou
@@ -1486,7 +1522,9 @@
                   </div>
 
                   <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed mb-3">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed mb-3 text-justify"
+                  >
                     C’est la partie qui s’occupe du
                     <strong>stockage réel</strong> des images. Il agit comme une
                     couche d’abstraction entre Glance et les différents systèmes
@@ -1550,7 +1588,9 @@
                   </div>
 
                   <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Consommateur d’images</strong><br />
                     Nova interroge Glance pour récupérer les images de systèmes
                     d’exploitation. Lors du lancement d’une instance, l’image
@@ -1575,7 +1615,9 @@
                   </div>
 
                   <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Authentification & contrôle d’accès</strong><br />
                     Glance s’appuie sur Keystone pour valider les requêtes via
                     des tokens d’authentification. Il gère également les
@@ -1600,7 +1642,9 @@
                   </div>
 
                   <!-- Description -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Stockage des images</strong><br />
                     Glance ne stocke pas directement les images : il délègue
                     leur stockage à des services externes comme Swift, Ceph ou
@@ -1633,7 +1677,9 @@
               BLOCK_STORAGE
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Cinder est le service de
               <strong>Stockage Bloc (Block Storage)</strong> d’OpenStack. Il
               permet de créer et de gérer des disques durs virtuels persistants
@@ -1650,7 +1696,7 @@
                 <i class="fas fa-tasks"></i>
                 Ce que permet Cinder :
               </h4>
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Créer des volumes (disques virtuels) de n’importe quelle
                   taille
@@ -1685,13 +1731,15 @@
                 <i class="fas fa-hard-drive"></i>
                 C’est quoi le stockage bloc ?
               </h4>
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Imagine que tu branches un disque dur externe sur ton
                 ordinateur. Cinder fait exactement la même chose dans le cloud :
                 il fournit des <strong>volumes persistants</strong>
                 que tu peux attacher à une machine virtuelle.
               </p>
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 Contrairement au stockage objet (Swift), le stockage bloc est
                 conçu pour être utilisé comme un disque classique : tu peux le
                 formater, installer un système de fichiers (ext4, NTFS…) et
@@ -1711,7 +1759,9 @@
                 Comment Cinder est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Cinder est un service modulaire qui sépare clairement la
                 <strong>gestion des volumes</strong> de leur
                 <strong>stockage réel</strong>. Cette architecture lui permet de
@@ -1734,7 +1784,9 @@
                     <h5 class="text-white font-semibold">1. Cinder API</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Point d’entrée des requêtes</strong><br />
                     La Cinder API expose une interface REST utilisée par
                     Horizon, Nova ou les utilisateurs pour gérer les volumes.
@@ -1760,7 +1812,9 @@
                     </h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Choix du backend de stockage</strong><br />
                     Le Cinder Scheduler analyse les ressources disponibles
                     (capacité, type de stockage, performances) sur les
@@ -1786,7 +1840,9 @@
                     </h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Exécution des opérations sur les volumes</strong
                     ><br />
                     Le Cinder Volume Service réalise les actions concrètes sur
@@ -1821,11 +1877,10 @@
                 Avec qui Cinder interagit-il ?
               </h4>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-orange-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors"
@@ -1836,8 +1891,9 @@
                     <h5 class="text-white font-semibold">Nova</h5>
                   </div>
 
-                  <!-- Description améliorée -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Gestion des volumes</strong><br />
                     Nova communique avec Cinder pour attacher ou détacher des
                     volumes de stockage aux machines virtuelles. Cette opération
@@ -1850,7 +1906,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-purple-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors"
@@ -1861,8 +1916,9 @@
                     <h5 class="text-white font-semibold">Keystone</h5>
                   </div>
 
-                  <!-- Description améliorée -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Authentification & contrôle d’accès</strong><br />
                     Cinder s’appuie sur Keystone pour vérifier l’identité des
                     utilisateurs via des tokens et contrôler les permissions. Il
@@ -1875,7 +1931,6 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-sky-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <!-- Ligne icône + titre -->
                   <div class="flex items-center gap-3 mb-3">
                     <div
                       class="w-10 h-10 bg-sky-500/10 rounded-xl flex items-center justify-center text-sky-400 group-hover:bg-sky-500 group-hover:text-black transition-colors"
@@ -1886,8 +1941,9 @@
                     <h5 class="text-white font-semibold">Glance</h5>
                   </div>
 
-                  <!-- Description améliorée -->
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Source d’images pour les volumes</strong><br />
                     Cinder peut utiliser des images stockées dans Glance pour
                     créer des volumes bootables. Cela permet de provisionner
@@ -1918,7 +1974,9 @@
             >
               OBJECT_STORAGE
             </div>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Swift est le service de
               <strong>Stockage Objet</strong> d’OpenStack. On l’appelle souvent
               le
@@ -1937,7 +1995,7 @@
                 <i class="fas fa-tasks"></i>
                 Ce que permet Swift :
               </h4>
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Stocker des quantités massives de données non structurées
                   (images, vidéos, logs, backups, documents…)
@@ -1971,13 +2029,15 @@
                 <i class="fas fa-boxes-stacked"></i>
                 C’est quoi le stockage objet ?
               </h4>
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Contrairement au stockage bloc (Cinder) qui ressemble à un
                 disque dur, ou au stockage fichier qui utilise des dossiers et
                 des arborescences, Swift utilise un
                 <strong>espace d’adressage plat</strong> (flat namespace).
               </p>
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 Un objet (fichier) ne peut pas être « dans » un autre objet.
                 Tous les objets existent au même niveau dans un grand pool de
                 stockage. On les organise simplement avec des
@@ -2006,7 +2066,9 @@
                 Comment Swift est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Swift est conçu dès le départ pour être
                 <strong
                   >extrêmement scalable, redondant et tolérant aux
@@ -2029,7 +2091,9 @@
                     <h5 class="text-white font-semibold">Proxy Server</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Point d’entrée du stockage</strong><br />
                     Le Proxy Server reçoit toutes les requêtes des clients et
                     les distribue vers les nœuds de stockage appropriés. Il agit
@@ -2052,7 +2116,9 @@
                     <h5 class="text-white font-semibold">Account Server</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Gestion des comptes</strong><br />
                     L’Account Server gère les comptes utilisateurs et maintient
                     la liste des containers associés à chaque compte. Il permet
@@ -2076,7 +2142,9 @@
                     </h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Stockage et organisation des données</strong><br />
                     Les Container Servers gèrent l’organisation des objets
                     (liste, métadonnées), tandis que les Object Servers stockent
@@ -2110,7 +2178,7 @@
                 Avec qui Swift interagit-il ?
               </h4>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-purple-500/30 rounded-2xl p-6 transition-all"
                 >
@@ -2124,7 +2192,9 @@
                     <h5 class="text-white font-semibold">Glance</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Stockage des images</strong><br />
                     Glance utilise souvent Swift comme backend de stockage pour
                     enregistrer les images de machines virtuelles. Cette
@@ -2146,7 +2216,9 @@
                     <h5 class="text-white font-semibold">Cinder</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Stockage des sauvegardes</strong><br />
                     Cinder peut utiliser Swift comme backend pour stocker les
                     sauvegardes de volumes. Cela permet de conserver des copies
@@ -2168,7 +2240,9 @@
                     <h5 class="text-white font-semibold">Keystone</h5>
                   </div>
 
-                  <p class="text-slate-400 text-sm leading-relaxed">
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
                     <strong>Authentification & contrôle d’accès</strong><br />
                     Swift s’appuie sur Keystone pour authentifier les
                     utilisateurs via des tokens et gérer les permissions. Cela

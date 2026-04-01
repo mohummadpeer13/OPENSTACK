@@ -578,7 +578,7 @@
             </div>
 
             <div
-              class="text-[12px] font-mono text-orange-500 bg-orange-500/10 border border-orange-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-orange-500 bg-orange-500/10 border border-orange-500/20 inline-block px-3 py-1 rounded"
             >
               COMPUTE_ENGINE
             </div>
@@ -1076,7 +1076,7 @@
             </div>
 
             <div
-              class="text-[12px] font-mono text-blue-500 bg-blue-500/10 border border-blue-500/20 inline-block px-2 py-1 rounded"
+              class="text-[14px] font-mono text-blue-500 bg-blue-500/10 border border-blue-500/20 inline-block px-2 py-1 rounded"
             >
               NETWORKING_SERVICE
             </div>
@@ -1411,7 +1411,7 @@
               <h3 class="text-4xl font-bold text-white italic m-0">Glance</h3>
             </div>
             <div
-              class="text-[12px] font-mono text-purple-500 bg-purple-500/10 border border-purple-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-purple-500 bg-purple-500/10 border border-purple-500/20 inline-block px-3 py-1 rounded"
             >
               IMAGE_SERVICE
             </div>
@@ -1672,7 +1672,7 @@
             </div>
 
             <div
-              class="text-[12px] font-mono text-emerald-500 bg-emerald-500/10 border border-emerald-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-emerald-500 bg-emerald-500/10 border border-emerald-500/20 inline-block px-3 py-1 rounded"
             >
               BLOCK_STORAGE
             </div>
@@ -1970,7 +1970,7 @@
             </div>
 
             <div
-              class="text-[12px] font-mono text-amber-500 bg-amber-500/10 border border-amber-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-amber-500 bg-amber-500/10 border border-amber-500/20 inline-block px-3 py-1 rounded"
             >
               OBJECT_STORAGE
             </div>
@@ -2256,7 +2256,7 @@
 
           <!-- Keystone -->
           <div
-            class="glass rounded-3xl hover:border-violet-500/50 transition-all duration-300 group"
+            class="glass rounded-3xl hover:border-violet-500/50 transition-all duration-300 group mb-8"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
@@ -2269,12 +2269,14 @@
             </div>
 
             <div
-              class="text-[12px] font-mono text-violet-500 bg-violet-500/10 border border-violet-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-violet-500 bg-violet-500/10 border border-violet-500/20 inline-block px-3 py-1 rounded"
             >
               IDENTITY_SERVICE
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Keystone est le service d’<strong
                 >Identité et d’Authentification</strong
               >
@@ -2286,11 +2288,16 @@
             </p>
 
             <!-- Ce que permet Keystone -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8">
-              <p class="text-violet-400 text-sm font-medium mb-4">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
+              <h4
+                class="text-violet-400 font-semibold text-lg mb-5 flex items-center gap-3"
+              >
+                <i class="fas fa-tasks"></i>
                 Ce que permet Keystone :
-              </p>
-              <ul class="text-slate-400 text-sm space-y-3">
+              </h4>
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Gérer les utilisateurs, groupes et mots de passe
                 </li>
@@ -2313,27 +2320,33 @@
             </div>
 
             <!-- C’est quoi Keystone ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-violet-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
                 <i class="fas fa-user-shield"></i>
                 C’est quoi Keystone ?
               </h4>
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Keystone est le service central d’authentification et
                 d’autorisation d’OpenStack. Sans Keystone, aucun utilisateur ne
                 peut se connecter, et aucun service ne peut communiquer de
                 manière sécurisée.
               </p>
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 Il joue le rôle de gardien : il vérifie qui tu es, à quel projet
                 tu appartiens, et ce que tu as le droit de faire.
               </p>
             </div>
 
             <!-- Comment Keystone est-il construit ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-violet-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
@@ -2341,7 +2354,9 @@
                 Comment Keystone est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Keystone est relativement léger et très performant. Il est basé
                 sur une architecture modulaire.
               </p>
@@ -2350,72 +2365,85 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-violet-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-plug text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        Keystone API
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Point d’entrée unique (Identity API v3). Tous les
-                        services et utilisateurs passent par cette API pour
-                        s’authentifier.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Keystone API</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Point d’entrée de l’identité</strong><br />
+                    La Keystone API (Identity v3) est utilisée par tous les
+                    services et utilisateurs pour s’authentifier. Elle valide
+                    les identifiants et délivre un token d’accès, utilisé
+                    ensuite pour autoriser les requêtes vers les autres services
+                    OpenStack.
+                  </p>
                 </div>
 
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-violet-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-database text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        Backend de Stockage
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Stocke les utilisateurs, projets, rôles, etc. Peut
-                        utiliser SQL (MariaDB/MySQL) ou LDAP/Active Directory.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">
+                      Backend de Stockage
+                    </h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Stockage des identités</strong><br />
+                    Keystone s’appuie sur un backend pour stocker les
+                    utilisateurs, projets, rôles et permissions. Il peut
+                    utiliser une base de données SQL (MariaDB/MySQL) ou un
+                    annuaire externe comme LDAP / Active Directory pour
+                    centraliser la gestion des identités.
+                  </p>
                 </div>
 
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-violet-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-violet-500/10 rounded-xl flex items-center justify-center text-violet-400 group-hover:bg-violet-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-key text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        Token Provider
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Génère et valide les tokens (UUID ou Fernet tokens).
-                        Fernet est le format recommandé car sécurisé et sans
-                        base de données.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Token Provider</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Gestion des tokens d’accès</strong><br />
+                    Le Token Provider génère et valide les tokens utilisés pour
+                    authentifier les requêtes. Il supporte différents formats
+                    (UUID, Fernet), avec Fernet recommandé car sécurisé, léger
+                    et ne nécessitant pas de stockage en base de données.
+                  </p>
                 </div>
               </div>
             </div>
 
             <!-- Avec qui Keystone interagit-il ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mt-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mt-8"
+            >
               <h4
                 class="text-violet-400 font-semibold text-lg mb-6 flex items-center gap-3"
               >
@@ -2423,7 +2451,9 @@
                 Comment Keystone interagit avec les services ?
               </h4>
 
-              <div class="space-y-5 text-slate-300 text-sm leading-relaxed">
+              <div
+                class="space-y-5 text-slate-300 text-sm leading-relaxed text-justify"
+              >
                 <div>
                   <span class="text-white font-semibold"
                     >1. Authentification</span
@@ -2471,20 +2501,23 @@
                 </div>
               </div>
 
+              <!-- Résumé -->
               <div
-                class="mt-6 bg-violet-500/10 border border-violet-500/20 rounded-xl p-4 text-sm text-violet-200 italic"
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Keystone agit comme un
-                <span class="font-semibold">agent de sécurité</span> : il
-                vérifie ton identité, te donne un badge (token) et tous les
-                services vérifient ce badge avant d’exécuter une action.
+                <p class="text-xs text-slate-400 italic text-center">
+                  Keystone agit comme un
+                  <span class="font-semibold">agent de sécurité</span> : il
+                  vérifie ton identité, te donne un badge (token) et tous les
+                  services vérifient ce badge avant d’exécuter une action.
+                </p>
               </div>
             </div>
           </div>
 
           <!-- Heat -->
           <div
-            class="glass rounded-3xl hover:border-rose-500/50 transition-all duration-300 group"
+            class="glass rounded-3xl hover:border-rose-500/50 transition-all duration-300 group mb-8"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
@@ -2497,12 +2530,14 @@
             </div>
 
             <div
-              class="text-[10px] font-mono text-rose-500 bg-rose-500/10 border border-rose-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-rose-500 bg-rose-500/10 border border-rose-500/20 inline-block px-3 py-1 rounded"
             >
               ORCHESTRATION
             </div>
 
-            <p class="text-slate-400 text-sm leading-relaxed mb-6 mt-6">
+            <p
+              class="text-slate-400 text-sm leading-relaxed mb-6 mt-6 text-justify"
+            >
               Heat est le service d’<strong>Orchestration</strong> d’OpenStack.
               On l’appelle souvent le
               <span class="text-rose-400 font-medium"
@@ -2512,11 +2547,16 @@
             </p>
 
             <!-- Ce que permet Heat -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8">
-              <p class="text-rose-400 text-sm font-medium mb-4">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
+              <h4
+                class="text-rose-400 font-semibold text-lg mb-5 flex items-center gap-3"
+              >
+                <i class="fas fa-tasks"></i>
                 Ce que permet Heat :
-              </p>
-              <ul class="text-slate-400 text-sm space-y-3">
+              </h4>
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Déployer des infrastructures complexes en un seul clic
                   (plusieurs VMs + réseaux + volumes + load balancers…)
@@ -2545,20 +2585,24 @@
             </div>
 
             <!-- C’est quoi l’orchestration ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-rose-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
                 <i class="fas fa-layer-group"></i>
                 C’est quoi l’orchestration avec Heat ?
               </h4>
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Heat te permet de décrire toute ton infrastructure comme du
                 code. Au lieu de créer manuellement une VM, puis un réseau, puis
                 un volume, puis de les relier… tu écris un seul fichier
                 (template) qui décrit l’ensemble.
               </p>
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 Heat lit ce template et s’occupe de tout créer, configurer et
                 interconnecter automatiquement. C’est exactement comme un
                 <strong>docker-compose</strong> ou un
@@ -2567,7 +2611,9 @@
             </div>
 
             <!-- Comment Heat est-il construit ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-rose-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
@@ -2575,7 +2621,9 @@
                 Comment Heat est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Heat est composé de plusieurs services qui travaillent ensemble
                 pour transformer tes templates en ressources réelles.
               </p>
@@ -2585,76 +2633,89 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-rose-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-plug text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">1. Heat API</h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Point d’entrée principal. Il reçoit les templates et les
-                        commandes (create stack, update stack, delete stack)
-                        depuis Horizon ou la ligne de commande.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">1. Heat API</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Point d’entrée de l’orchestration</strong><br />
+                    La Heat API reçoit les templates (HOT) et les commandes
+                    (create, update, delete stack) depuis Horizon, l’API ou la
+                    CLI. Elle valide les requêtes puis les transmet au moteur
+                    Heat pour orchestrer le déploiement des ressources.
+                  </p>
                 </div>
 
                 <!-- Heat Engine -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-rose-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-brain text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        2. Heat Engine
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Le « cerveau » de Heat. Il lit le template, traduit les
-                        ressources demandées, appelle les autres services
-                        OpenStack (Nova, Neutron, Cinder, Glance…) et suit
-                        l’état de la stack.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">2. Heat Engine</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Moteur d’orchestration</strong><br />
+                    Le Heat Engine interprète le template (HOT), planifie les
+                    ressources et exécute les actions nécessaires. Il appelle
+                    les services OpenStack (Nova, Neutron, Cinder, Glance…),
+                    gère les dépendances entre ressources et suit en continu
+                    l’état de la stack (création, mise à jour, suppression).
+                  </p>
                 </div>
 
                 <!-- Heat Orchestration Templates -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-rose-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-rose-500/10 rounded-xl flex items-center justify-center text-rose-400 group-hover:bg-rose-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-file-code text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        3. Templates (HOT)
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Fichiers YAML qui décrivent toute l’infrastructure. Heat
-                        les interprète et les exécute.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">3. Templates (HOT)</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Infrastructure as Code (IaC)</strong><br />
+                    Les templates HOT (Heat Orchestration Template) sont des
+                    fichiers YAML qui décrivent l’infrastructure complète (VM,
+                    réseaux, volumes, etc.). Ils définissent les ressources,
+                    leurs propriétés et leurs dépendances, permettant à Heat de
+                    déployer et gérer automatiquement toute la stack.
+                  </p>
                 </div>
               </div>
 
-              <p
-                class="text-slate-400 text-sm mt-8 italic border-l-4 border-rose-500/30 pl-4"
+              <!-- Résumé -->
+              <div
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Heat transforme une simple description en une infrastructure
-                réelle et cohérente.
-              </p>
+                <p class="text-xs text-slate-400 italic text-center">
+                  Heat transforme une simple description en une infrastructure
+                  réelle et cohérente.
+                </p>
+              </div>
             </div>
 
             <!-- Avec qui Heat interagit-il ? -->
@@ -2666,7 +2727,9 @@
                 Avec qui Heat interagit-il ?
               </h4>
 
-              <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+              <p
+                class="text-slate-300 text-sm mb-6 leading-relaxed text-justify"
+              >
                 Heat est le service d’orchestration d’OpenStack. Il ne crée rien
                 directement : il
                 <span class="text-white font-semibold"
@@ -2681,113 +2744,124 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-orange-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-microchip text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Nova</h5>
-                      <p class="text-slate-400 text-sm">
-                        Heat demande à Nova de
-                        <span class="text-white"
-                          >créer, démarrer et supprimer des machines
-                          virtuelles</span
-                        >
-                        selon les instructions du template (nombre de VM, type,
-                        etc.).
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Nova</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Gestion du cycle de vie des VM</strong><br />
+                    Heat pilote Nova pour créer, démarrer, redimensionner et
+                    supprimer des machines virtuelles en fonction du template.
+                    Il applique les paramètres définis (image, flavor, réseau,
+                    nombre d’instances) et suit leur état tout au long du
+                    déploiement de la stack.
+                  </p>
                 </div>
 
                 <!-- Neutron -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-blue-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-network-wired text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Neutron</h5>
-                      <p class="text-slate-400 text-sm">
-                        Heat utilise Neutron pour
-                        <span class="text-white"
-                          >créer toute l’architecture réseau</span
-                        >
-                        : réseaux, sous-réseaux, IP flottantes et routeurs.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Neutron</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Orchestration réseau</strong><br />
+                    Heat pilote Neutron pour créer et configurer toute
+                    l’infrastructure réseau : réseaux, sous-réseaux, routeurs,
+                    ports et IP flottantes. Il gère aussi les connexions entre
+                    ressources (VM ↔ réseau) afin d’assurer la connectivité
+                    complète de la stack.
+                  </p>
                 </div>
 
                 <!-- Cinder -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-emerald-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-database text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Cinder</h5>
-                      <p class="text-slate-400 text-sm">
-                        Heat orchestre la création de
-                        <span class="text-white"
-                          >volumes de stockage persistants</span
-                        >
-                        et les attache automatiquement aux machines virtuelles.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Cinder</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Stockage bloc persistant</strong><br />
+                    Heat pilote Cinder pour créer, attacher et gérer des volumes
+                    de stockage persistants. Les volumes sont automatiquement
+                    associés aux machines virtuelles et conservent les données
+                    indépendamment du cycle de vie des VM.
+                  </p>
                 </div>
 
                 <!-- Glance -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-purple-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-image text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Glance</h5>
-                      <p class="text-slate-400 text-sm">
-                        Heat récupère les
-                        <span class="text-white"
-                          >images des systèmes (Linux, etc.)</span
-                        >
-                        depuis Glance pour lancer les machines virtuelles.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Glance</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Catalogue d’images</strong><br />
+                    Heat utilise Glance pour récupérer les images système
+                    (Linux, Windows, etc.) nécessaires au déploiement des
+                    machines virtuelles. Ces images servent de base pour
+                    instancier les VM via Nova selon les paramètres définis dans
+                    le template.
+                  </p>
                 </div>
               </div>
 
               <!-- Résumé -->
               <div
-                class="mt-6 bg-rose-500/10 border border-rose-500/20 rounded-xl p-4 text-sm text-rose-200 italic"
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Heat agit comme un
-                <span class="font-semibold">chef d’orchestre</span> : il lit un
-                template et déclenche automatiquement toutes les actions
-                nécessaires auprès de Nova, Neutron, Cinder et Glance pour
-                déployer une infrastructure complète.
+                <p class="text-xs text-slate-400 italic text-center">
+                  Heat agit comme un
+                  <span class="font-semibold">chef d’orchestre</span> : il lit
+                  un template et déclenche automatiquement toutes les actions
+                  nécessaires auprès de Nova, Neutron, Cinder et Glance pour
+                  déployer une infrastructure complète.
+                </p>
               </div>
             </div>
           </div>
 
           <!-- Ceilometer -->
           <div
-            class="glass rounded-3xl hover:border-cyan-500/50 transition-all duration-300 group"
+            class="glass rounded-3xl hover:border-cyan-500/50 transition-all duration-300 group mb-8"
           >
             <div class="flex items-center gap-4 mb-6">
               <div
@@ -2809,9 +2883,11 @@
 
             <!-- C’est quoi la télémétrie et le monitoring ? -->
             <div
-              class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8 mt-8"
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8 mt-8"
             >
-              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Ceilometer est le service de
                 <strong>Télémétrie et Monitoring</strong> d’OpenStack. On
                 l’appelle souvent le
@@ -2829,19 +2905,23 @@
                 C’est quoi la télémétrie ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 La télémétrie correspond à la
                 <strong>collecte automatique et continue de données</strong>
                 sur l’utilisation des ressources (CPU, RAM, stockage, réseau…).
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 👉 Elle permet de savoir <strong>qui consomme quoi</strong>,
                 combien de ressources sont utilisées, et de garder un historique
                 précis.
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 🧠 Exemple : combien de CPU une machine virtuelle utilise sur
                 une journée.
               </p>
@@ -2854,19 +2934,23 @@
                 C’est quoi le monitoring ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Le monitoring consiste à
                 <strong>surveiller en temps réel l’état du système</strong>
                 pour détecter les problèmes ou anomalies.
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 👉 Il permet de savoir si les services fonctionnent
                 correctement, si une machine est surchargée ou si une panne
                 survient.
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
                 🧠 Exemple : alerter si le CPU dépasse 90% ou si un serveur
                 tombe en panne.
               </p>
@@ -2897,14 +2981,16 @@
             </div>
 
             <!-- Ce que permet Ceilometer -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-cyan-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
                 <i class="fas fa-tasks"></i>
                 Ce que permet Ceilometer :
               </h4>
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Collecter des métriques d’utilisation (CPU, RAM, disque,
                   réseau, etc.)
@@ -2931,7 +3017,9 @@
             </div>
 
             <!-- Comment Ceilometer est-il construit ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-cyan-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
@@ -2939,7 +3027,9 @@
                 Comment Ceilometer est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-8 text-justify"
+              >
                 Ceilometer est composé de plusieurs agents spécialisés qui
                 collectent les données et d’un moteur central qui les traite.
               </p>
@@ -2949,85 +3039,104 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-cyan-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-clock text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        1. Ceilometer Polling Agent
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Tourne sur les nœuds de calcul et les contrôleurs. Il
-                        interroge régulièrement les services (Nova, Neutron,
-                        Cinder…) pour collecter les métriques (CPU usage, bande
-                        passante, etc.).
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">
+                      1. Ceilometer Polling Agent
+                    </h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Collecte périodique des métriques</strong><br />
+                    Le Polling Agent interroge régulièrement les services
+                    OpenStack (Nova, Neutron, Cinder…) pour collecter des
+                    métriques d’usage (CPU, réseau, disque). Il s’exécute sur
+                    les nœuds de calcul et les contrôleurs afin de fournir une
+                    vision continue de l’activité de l’infrastructure.
+                  </p>
                 </div>
 
                 <!-- Notification Agent -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-cyan-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-bell text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        2. Notification Agent
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Écoute les événements en temps réel via la file de
-                        messages (RabbitMQ). Il transforme les notifications
-                        (ex: une VM a démarré) en métriques.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">
+                      2. Notification Agent
+                    </h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Collecte des événements en temps réel</strong><br />
+                    Le Notification Agent écoute les événements envoyés via la
+                    file de messages (RabbitMQ). Il transforme ces notifications
+                    (ex : création ou démarrage d’une VM) en métriques
+                    exploitables, permettant de suivre l’activité du cloud sans
+                    polling.
+                  </p>
                 </div>
 
                 <!-- Collector + Storage -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-cyan-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-database text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        3. Collector + Backend de Stockage
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Récupère toutes les métriques et les stocke dans une
-                        base de données adaptée (Gnocchi est le plus utilisé
-                        aujourd’hui). Il permet ensuite de faire des requêtes,
-                        graphiques et alertes.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">
+                      3. Collector + Backend de Stockage
+                    </h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Centralisation et stockage des métriques</strong
+                    ><br />
+                    Le Collector agrège les données provenant des agents
+                    (polling et notifications) puis les envoie vers un backend
+                    de stockage spécialisé comme Gnocchi. Ce stockage permet de
+                    conserver l’historique, d’exécuter des requêtes, de générer
+                    des graphiques et d’alimenter les systèmes d’alerte.
+                  </p>
                 </div>
               </div>
 
-              <p
-                class="text-slate-400 text-sm mt-8 italic border-l-4 border-cyan-500/30 pl-4"
+              <!-- Résumé -->
+              <div
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Note : Dans les versions récentes d’OpenStack, Ceilometer
-                travaille souvent avec Gnocchi (pour le stockage) et Aodh (pour
-                les alarmes).
-              </p>
+                <p class="text-xs text-slate-400 italic text-center">
+                  Dans les versions récentes d’OpenStack, Ceilometer travaille
+                  souvent avec Gnocchi (pour le stockage) et Aodh (pour les
+                  alarmes).
+                </p>
+              </div>
             </div>
 
             <!-- Avec qui Ceilometer interagit-il ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7"
+            >
               <h4
                 class="text-cyan-400 font-semibold text-lg mb-6 flex items-center gap-3"
               >
@@ -3035,7 +3144,9 @@
                 Avec qui Ceilometer interagit-il ?
               </h4>
 
-              <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+              <p
+                class="text-slate-300 text-sm mb-6 leading-relaxed text-justify"
+              >
                 Ceilometer est le service de
                 <span class="text-white font-semibold"
                   >collecte de métriques</span
@@ -3049,103 +3160,119 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-orange-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-microchip text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Nova</h5>
-                      <p class="text-slate-400 text-sm">
-                        Ceilometer collecte les
-                        <span class="text-white"
-                          >métriques des machines virtuelles</span
-                        >
-                        : utilisation CPU, RAM, disque, temps d’exécution, etc.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Nova</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Métriques des ressources compute</strong><br />
+                    Ceilometer collecte les métriques des machines virtuelles
+                    via Nova : utilisation CPU, mémoire (RAM), disque, réseau et
+                    temps d’exécution. Ces données permettent de suivre les
+                    performances, analyser l’usage et alimenter la facturation
+                    ou les alertes.
+                  </p>
                 </div>
 
                 <!-- Neutron -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-blue-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-network-wired text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Neutron</h5>
-                      <p class="text-slate-400 text-sm">
-                        Il récupère les
-                        <span class="text-white">données réseau</span> : bande
-                        passante utilisée, trafic entrant/sortant, nombre de
-                        paquets.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Neutron</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Métriques réseau</strong><br />
+                    Ceilometer collecte les données réseau via Neutron : bande
+                    passante, trafic entrant/sortant, nombre de paquets et
+                    activité des interfaces. Ces métriques permettent d’analyser
+                    les performances réseau, détecter les anomalies et optimiser
+                    la connectivité des ressources.
+                  </p>
                 </div>
 
                 <!-- Cinder -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-emerald-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-database text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Cinder</h5>
-                      <p class="text-slate-400 text-sm">
-                        Ceilometer mesure l’<span class="text-white"
-                          >utilisation du stockage</span
-                        >
-                        : volumes créés, taille utilisée, opérations de
-                        lecture/écriture.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Cinder</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Métriques de stockage bloc</strong><br />
+                    Ceilometer collecte les métriques liées aux volumes via
+                    Cinder : capacité allouée, nombre de volumes, opérations
+                    d’entrée/sortie (IOPS), lectures/écritures et activité des
+                    disques. Ces données permettent de surveiller les
+                    performances, optimiser l’usage du stockage et anticiper les
+                    saturations.
+                  </p>
                 </div>
 
                 <!-- Keystone -->
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-purple-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-4">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors mt-1"
+                      class="w-10 h-10 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-user-shield text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-1">Keystone</h5>
-                      <p class="text-slate-400 text-sm">
-                        Il utilise Keystone pour
-                        <span class="text-white"
-                          >associer les métriques aux bons utilisateurs et
-                          projets</span
-                        >, et pour sécuriser l’accès aux données collectées.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Keystone</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Authentification et multi-tenant</strong><br />
+                    Ceilometer s’appuie sur Keystone pour authentifier les
+                    requêtes et associer chaque métrique aux bons utilisateurs
+                    et projets (tenants). Il garantit ainsi l’isolation des
+                    données et le contrôle des accès aux informations de
+                    monitoring.
+                  </p>
                 </div>
               </div>
 
               <!-- Résumé -->
               <div
-                class="mt-6 bg-cyan-500/10 border border-cyan-500/20 rounded-xl p-4 text-sm text-cyan-200 italic"
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Ceilometer agit comme un
-                <span class="font-semibold">outil de surveillance</span> : il
-                collecte les données de tous les services pour analyser
-                l’utilisation des ressources, surveiller les performances et
-                permettre la facturation (billing).
+                <p class="text-xs text-slate-400 italic text-center">
+                  Ceilometer agit comme un
+                  <span class="font-semibold">outil de surveillance</span> : il
+                  collecte les données de tous les services pour analyser
+                  l’utilisation des ressources, surveiller les performances et
+                  permettre la facturation (billing).
+                </p>
               </div>
             </div>
           </div>
@@ -3165,14 +3292,14 @@
             </div>
 
             <div
-              class="text-[10px] font-mono text-pink-500 bg-pink-500/10 border border-pink-500/20 inline-block px-3 py-1 rounded"
+              class="text-[14px] font-mono text-pink-500 bg-pink-500/10 border border-pink-500/20 inline-block px-3 py-1 rounded"
             >
               DASHBOARD
             </div>
 
             <!-- C’est quoi Horizon ? -->
             <div
-              class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8 mt-8"
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8 mt-8"
             >
               <!-- Titre -->
               <h4
@@ -3182,7 +3309,9 @@
                 C’est quoi Horizon ?
               </h4>
 
-              <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-400 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Horizon est le
                 <strong>tableau de bord web officiel</strong> d’OpenStack. Il
                 permet de gérer facilement tout le cloud (machines, réseaux,
@@ -3191,43 +3320,32 @@
               </p>
 
               <!-- Explication principale -->
-              <p class="text-slate-300 text-sm leading-relaxed">
+              <p class="text-slate-300 text-sm leading-relaxed text-justify">
                 Horizon simplifie l’utilisation du cloud en transformant des
                 actions complexes en simples clics.
               </p>
 
-              <p class="text-slate-300 text-sm leading-relaxed mt-4">
-                ⚠️ Important : Horizon
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
+              >
+                ⚠️ Horizon
                 <strong>ne gère pas directement</strong> les ressources. Il agit
                 comme un <strong>intermédiaire</strong> qui envoie des requêtes
                 aux services (Nova, Neutron, Cinder…).
               </p>
 
-              <!-- Analogie -->
-              <div
-                class="mt-6 bg-pink-500/10 border border-pink-500/20 rounded-xl p-4 text-sm text-pink-200"
-              >
-                🧠 <strong>Analogie :</strong><br /><br />
-                Horizon est comme une <strong>application mobile</strong>.
-                <br />
-                Quand vous cliquez sur un bouton, l’application ne fait rien
-                elle-même : elle envoie une demande au système derrière.
-                <br /><br />
-                👉 Horizon fonctionne exactement de la même manière avec
-                OpenStack.
-              </div>
-
-              <!-- Résumé -->
-              <div
-                class="mt-4 bg-pink-500/10 border border-pink-500/20 rounded-xl p-4 text-sm text-pink-200 italic"
+              <p
+                class="text-slate-300 text-sm leading-relaxed mt-4 text-justify"
               >
                 👉 Horizon est la <strong>porte d’entrée du cloud</strong> : il
                 permet de piloter facilement tous les services OpenStack.
-              </div>
+              </p>
             </div>
 
             <!-- Ce que permet Horizon -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-pink-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
@@ -3235,7 +3353,7 @@
                 Ce que permet Horizon :
               </h4>
 
-              <ul class="text-slate-400 text-sm space-y-3">
+              <ul class="text-slate-400 text-sm space-y-3 text-justify">
                 <li class="flex items-start gap-2">
                   • Créer, démarrer, arrêter et supprimer des machines
                   virtuelles (Nova)
@@ -3263,7 +3381,9 @@
             </div>
 
             <!-- Comment Horizon est-il construit ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7 mb-8">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7 mb-8"
+            >
               <h4
                 class="text-pink-400 font-semibold text-lg mb-5 flex items-center gap-3"
               >
@@ -3271,7 +3391,9 @@
                 Comment Horizon est-il construit ?
               </h4>
 
-              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              <p
+                class="text-slate-300 text-sm leading-relaxed mb-6 text-justify"
+              >
                 Horizon est une application web basée sur le framework Django
                 (Python). Il agit comme une couche de présentation qui
                 communique avec tous les autres services via leurs APIs.
@@ -3281,70 +3403,84 @@
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-pink-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-globe text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        Horizon Dashboard
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Interface utilisateur web moderne avec des menus,
-                        formulaires et tableaux de bord. Il est entièrement
-                        personnalisable (thèmes, plugins, etc.).
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Horizon Dashboard</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Interface web de gestion</strong><br />
+                    Horizon est le tableau de bord web d’OpenStack. Il permet de
+                    gérer les ressources (VM, réseaux, volumes, utilisateurs)
+                    via une interface intuitive avec formulaires, tableaux et
+                    visualisations. Il est extensible et personnalisable grâce à
+                    des thèmes et plugins.
+                  </p>
                 </div>
 
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-pink-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-plug text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">API Clients</h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Horizon utilise les bibliothèques clients Python de
-                        chaque service (python-novaclient, python-neutronclient,
-                        etc.) pour communiquer avec OpenStack.
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">API Clients</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Interface avec les services OpenStack</strong><br />
+                    Horizon s’appuie sur les bibliothèques clientes Python
+                    (novaclient, neutronclient, cinderclient, etc.) pour
+                    communiquer avec les APIs des services OpenStack. Ces
+                    clients traduisent les actions de l’interface web en appels
+                    API (création de VM, réseaux, volumes…).
+                  </p>
                 </div>
 
                 <div
                   class="group bg-slate-900/50 border border-white/10 hover:border-pink-500/30 rounded-2xl p-6 transition-all"
                 >
-                  <div class="flex items-start gap-5">
+                  <div class="flex items-center gap-3 mb-3">
                     <div
-                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors flex-shrink-0 mt-1"
+                      class="w-10 h-10 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-400 group-hover:bg-pink-500 group-hover:text-black transition-colors"
                     >
                       <i class="fas fa-shield-alt text-xl"></i>
                     </div>
-                    <div class="flex-1">
-                      <h5 class="text-white font-semibold mb-2">
-                        Authentification
-                      </h5>
-                      <p class="text-slate-400 text-sm leading-relaxed">
-                        Il s’authentifie via Keystone et gère les sessions
-                        utilisateur, les projets et les rôles (RBAC).
-                      </p>
-                    </div>
+
+                    <h5 class="text-white font-semibold">Authentification</h5>
                   </div>
+
+                  <p
+                    class="text-slate-400 text-sm leading-relaxed text-justify"
+                  >
+                    <strong>Sécurité et gestion des accès</strong><br />
+                    Horizon s’appuie sur Keystone pour authentifier les
+                    utilisateurs et gérer leurs sessions. Il applique les rôles
+                    et permissions (RBAC) afin de contrôler l’accès aux
+                    ressources selon le projet (tenant) et le niveau
+                    d’autorisation.
+                  </p>
                 </div>
               </div>
             </div>
 
             <!-- Avec qui Horizon interagit-il ? -->
-            <div class="bg-white/5 border border-white/10 rounded-2xl p-7">
+            <div
+              class="bg-white/5 border border-white/10 rounded-2xl p-3 md:p-7"
+            >
               <h4
                 class="text-pink-400 font-semibold text-lg mb-6 flex items-center gap-3"
               >
@@ -3352,7 +3488,9 @@
                 Avec qui Horizon interagit-il ?
               </h4>
 
-              <p class="text-slate-300 text-sm mb-8 leading-relaxed">
+              <p
+                class="text-slate-300 text-sm mb-8 leading-relaxed text-justify"
+              >
                 Horizon est le
                 <span class="text-white font-semibold"
                   >tableau de bord web</span
@@ -3466,13 +3604,15 @@
 
               <!-- Résumé -->
               <div
-                class="mt-6 bg-pink-500/10 border border-pink-500/20 rounded-xl p-4 text-sm text-pink-200 italic"
+                class="mt-6 bg-blue-500/10 border border-blue-500/20 rounded-xl p-2 text-sm text-blue-200 italic"
               >
-                Horizon agit comme une
-                <span class="font-semibold">interface centrale</span> : il
-                permet à l’utilisateur de piloter tout OpenStack sans utiliser
-                de ligne de commande, en envoyant des requêtes aux services via
-                leurs APIs.
+                <p class="text-xs text-slate-400 italic text-center">
+                  Horizon agit comme une
+                  <span class="font-semibold">interface centrale</span> : il
+                  permet à l’utilisateur de piloter tout OpenStack sans utiliser
+                  de ligne de commande, en envoyant des requêtes aux services
+                  via leurs APIs.
+                </p>
               </div>
             </div>
           </div>
@@ -3481,12 +3621,11 @@
 
       <!-- RESUME OPENSTACk -->
       <section
-        class="bg-slate-950 border border-white/10 p-10 rounded-[2.5rem] relative mb-10 md:mb-14"
+        class="bg-slate-950 border border-white/10 py-6 px-6 md:py-12 md:px-12 rounded-[2.5rem] relative mb-10 md:mb-14"
       >
         <div
-          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-10 shadow-2xl"
+          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-4 shadow-2xl"
         >
-          <!-- Icône + Titre sur la même ligne -->
           <div class="flex items-center gap-4 mb-8">
             <div
               class="w-16 h-16 rounded-2xl bg-gradient-to-br from-red-600 to-red-900 flex items-center justify-center text-white shadow-2xl"
@@ -3502,7 +3641,7 @@
           <!-- Contenu -->
           <div>
             <!-- Intro -->
-            <p class="text-lg text-slate-400 leading-relaxed">
+            <p class="text-slate-400 leading-relaxed text-justify">
               OpenStack n’est pas juste un outil technique.
               <br /><br />
               C’est un
@@ -3514,7 +3653,7 @@
 
             <!-- Avant -->
             <div class="my-8 border-l-4 border-red-500/50 pl-6">
-              <p class="text-slate-300 italic text-base">
+              <p class="text-sm text-slate-300 italic text-base text-justify">
                 🔴 <strong>Avant :</strong><br />
                 On gérait des serveurs physiques manuellement : installation,
                 configuration, délais longs, dépendance au service IT.
@@ -3522,8 +3661,8 @@
             </div>
 
             <!-- Après -->
-            <div class="my-8 border-l-4 border-green-500/50 pl-6">
-              <p class="text-slate-300 italic text-base">
+            <div class="my-8 border-l-4 border-green-500/50 pl-6 text-justify">
+              <p class="text-sm text-slate-300 italic text-base">
                 🟢 <strong>Avec OpenStack :</strong><br />
                 L’infrastructure devient
                 <strong>logicielle, automatisée et instantanée</strong>.
@@ -3533,7 +3672,7 @@
             </div>
 
             <!-- Explication -->
-            <p class="text-lg text-slate-400 leading-relaxed">
+            <p class="text-slate-400 leading-relaxed text-justify">
               👉 On ne manipule plus directement le
               <span class="text-white font-semibold">hardware</span>, mais un
               <span class="text-white font-bold">logiciel intelligent</span> qui
@@ -3547,7 +3686,7 @@
               class="mt-10 bg-gradient-to-r from-red-500/10 to-transparent border border-red-500/20 rounded-2xl p-6"
             >
               <p class="text-white font-medium mb-2">💡 En résumé :</p>
-              <p class="text-slate-300 text-base">
+              <p class="text-slate-300 text-base text-justify">
                 OpenStack transforme une infrastructure classique en un
                 <strong class="text-white">Cloud Privé moderne</strong>,
                 comparable à AWS ou Google Cloud, mais
@@ -3558,7 +3697,7 @@
             </div>
 
             <!-- Métiers -->
-            <p class="text-lg text-slate-400 italic mt-8 leading-relaxed">
+            <p class="text-slate-400 italic mt-8 leading-relaxed">
               🚀 Cette transformation ouvre la voie aux métiers les plus
               demandés :
               <br /><br />
@@ -3586,10 +3725,10 @@
 
       <!-- DIFFERENT ARCHITECTURE DELOIEMENT OPENSTACk -->
       <section
-        class="bg-slate-950 border border-white/10 p-10 rounded-[2.5rem] relative mb-10 md:mb-14"
+        class="bg-slate-950 border border-white/10 py-6 px-6 md:py-12 md:px-12 rounded-[2.5rem] relative mb-10 md:mb-14"
       >
         <div
-          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-10 shadow-2xl"
+          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-4 shadow-2xl"
         >
           <span
             class="inline-flex items-center gap-2 px-3 py-1 text-xs font-semibold tracking-wider text-blue-500 uppercase bg-sky-400/10 rounded-full mb-6"
@@ -3598,23 +3737,23 @@
             Architecture Déploiement
           </span>
 
-          <!-- Icône + Titre sur la même ligne -->
-          <div class="flex items-center gap-4 mb-8">
+          <div
+            class="flex flex-col sm:flex-row items-center sm:items-center gap-4 mb-8 text-center sm:text-left"
+          >
             <div
-              class="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-900 flex items-center justify-center text-white shadow-2xl"
+              class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-900 flex items-center justify-center text-white shadow-2xl"
             >
-              <i class="fas fa-network-wired text-2xl"></i>
+              <i class="fas fa-network-wired text-xl sm:text-2xl"></i>
             </div>
 
-            <h2 class="text-4xl font-bold text-white flex items-center">
-              Les différents architectures de déploiement OpenStack
+            <h2 class="text-2xl sm:text-4xl font-bold text-white">
+              Les différentes architectures de déploiement OpenStack
             </h2>
           </div>
 
           <!-- Contenu -->
           <div>
-            <!-- Intro -->
-            <p class="text-lg text-slate-400 leading-relaxed">
+            <p class="text-slate-400 leading-relaxed text-justify">
               OpenStack peut être déployé de plusieurs façons selon les besoins.
               <br /><br />
               👉 Les deux principales architectures sont :
@@ -3624,7 +3763,7 @@
 
             <!-- All-in-One -->
             <div class="my-8 border-l-4 border-blue-500/50 pl-6">
-              <p class="text-slate-300 italic text-base">
+              <p class="text-slate-300 italic text-base text-justify">
                 🔹 <strong>All-in-One :</strong><br />
                 Tous les services OpenStack (Nova, Neutron, Cinder, etc.) sont
                 installés sur <strong>une seule machine</strong>.
@@ -3716,12 +3855,11 @@
 
       <!-- GUIDE DEPLOIEMENT -->
       <section
-        class="bg-slate-950 border border-white/10 p-10 rounded-[2.5rem] relative mb-10 md:mb-14"
+        class="bg-slate-950 border border-white/10 py-6 px-6 md:py-12 md:px-12 rounded-[2.5rem] relative mb-10 md:mb-14"
       >
         <div
-          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-10 shadow-2xl"
+          class="flex flex-col items-start rounded-[2rem] bg-gradient-to-br from-slate-800/80 to-slate-900/80 border border-white/10 p-4 shadow-2xl"
         >
-          <!-- Badge -->
           <span
             class="inline-flex items-center gap-2 px-3 py-1 text-xs font-semibold tracking-wider text-sky-400 uppercase bg-sky-400/10 rounded-full mb-6"
           >
@@ -3729,31 +3867,28 @@
             Guide Déploiement
           </span>
 
-          <!-- Header -->
-          <div class="flex items-center gap-4 mb-4">
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 mb-4 text-center sm:text-left"
+          >
             <div
-              class="w-16 h-16 rounded-2xl bg-gradient-to-br from-sky-600 to-blue-900 flex items-center justify-center text-white shadow-2xl"
+              class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br from-sky-600 to-blue-900 flex items-center justify-center text-white shadow-2xl"
             >
-              <i class="fas fa-tools text-2xl"></i>
+              <i class="fas fa-tools text-xl sm:text-2xl"></i>
             </div>
 
-            <h2 class="text-4xl font-bold text-white">
+            <h2 class="text-2xl sm:text-4xl font-bold text-white leading-tight">
               Déployer OpenStack avec Kolla-Ansible
             </h2>
           </div>
 
-          <!-- Sous-titre -->
-          <p class="text-slate-400 text-lg mb-8 max-w-3xl">
+          <p class="text-slate-400 mb-8 max-w-3xl text-justify">
             Une méthode moderne, automatisée et fiable pour transformer une
             infrastructure complexe en un cloud opérationnel en quelques
             commandes.
           </p>
 
-          <!-- Contenu -->
-          <div
-            class="space-y-6 text-lg leading-relaxed text-slate-300 max-w-3xl"
-          >
-            <p>
+          <div class="space-y-6 leading-relaxed text-slate-300 max-w-3xl">
+            <p class="text-justify">
               OpenStack est souvent perçu comme une
               <strong class="text-white italic">"usine à gaz"</strong>.
               Pourtant, c’est l’un des outils les plus puissants pour construire
@@ -3764,7 +3899,7 @@
             <div
               class="p-6 bg-sky-500/10 border border-sky-500/20 rounded-2xl my-6"
             >
-              <p class="text-slate-200">
+              <p class="text-sm text-slate-200">
                 🧠 <strong>Analogie :</strong><br /><br />
                 OpenStack agit comme un
                 <span class="text-sky-400 font-bold">chef d’orchestre</span> 🎼
@@ -3776,7 +3911,6 @@
               </p>
             </div>
 
-            <!-- Titre -->
             <h3 class="text-2xl font-bold text-white pt-4">
               Pourquoi utiliser Kolla-Ansible ?
             </h3>
@@ -3788,7 +3922,6 @@
             </p>
           </div>
 
-          <!-- Cards améliorées -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full">
             <!-- Docker -->
             <div
@@ -3833,7 +3966,7 @@
 
           <!-- Objectif -->
           <div class="mt-8 max-w-3xl">
-            <p class="text-slate-300 text-lg">
+            <p class="text-slate-300">
               🎯 L’objectif :
               <span class="text-white font-semibold"
                 >rendre OpenStack accessible, rapide à déployer et facile à

@@ -4,6 +4,14 @@ Déploiement automatisé d’une infrastructure OpenStack en utilisant Kolla-Ans
 
 ---
 
+## 🌍 Guide complet d’installation
+
+Pour un tutoriel détaillé étape par étape avec explications et captures, consulte mon site :
+
+👉 https://mohummadpeer13.github.io/OPENSTACK/
+
+---
+
 ## 📖 Description
 
 Ce projet permet de déployer rapidement une plateforme **OpenStack** en utilisant **Kolla-Ansible**, une solution officielle qui simplifie l’installation grâce à des conteneurs Docker.
